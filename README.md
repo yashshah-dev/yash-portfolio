@@ -47,6 +47,28 @@ A modern, production-ready portfolio website built with React 18, TypeScript, Vi
 - For custom domains, follow your host's instructions to set DNS and enable HTTPS.
 - If using GitHub Pages, remove `dist` from `.gitignore` and push the build output to the `gh-pages` branch.
 
+## Publishing Updates to GitHub Pages
+
+To deploy new changes to GitHub Pages:
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Publish the `dist` folder to the `gh-pages` branch using the gh-pages package:
+   ```bash
+   npx gh-pages -d dist
+   ```
+3. Wait a few minutes, then visit your site at:
+   ```
+   https://<your-username>.github.io/<your-repo-name>/
+   ```
+
+**Note:**
+- Make sure your `vite.config.ts` has the correct `base` set (e.g., `/yash-portfolio/`).
+- Remove `dist` from `.gitignore` if you want to commit the build output manually.
+- For custom domains, configure in GitHub Pages settings and update DNS records.
+
 ## Accessibility & SEO
 - Uses semantic HTML, ARIA labels, and is optimized for search engines.
 - Responsive and dark mode compatible.

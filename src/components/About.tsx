@@ -26,7 +26,7 @@ const About = () => {
             <div className="flex justify-center">
               <div className="w-64 h-64 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 p-1">
                 <img
-                  src="/Yash_Shah-image.png"
+                  src="/yash-portfolio/Yash_Shah-image.png"
                   alt="Yash Shah profile portrait"
                   className="w-full h-full object-cover rounded-full bg-gray-200 dark:bg-gray-700 border-4 border-white dark:border-gray-800 shadow-lg"
                   loading="lazy"

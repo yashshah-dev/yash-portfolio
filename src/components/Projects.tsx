@@ -18,7 +18,7 @@ const projects: Project[] = [
     technologies: ["Java", "Spring", "Fraud Detection"],
     githubUrl: "https://github.com/yashshah-dev/fraud-detection-engine",
     liveUrl: "",
-    imageUrl: "/Real-time-fraud-detection.png",
+    imageUrl: "/yash-portfolio/Real-time-fraud-detection.png",
   },
   {
     title: "card-ml-model",
@@ -26,7 +26,7 @@ const projects: Project[] = [
     technologies: ["Python", "ML", "Fraud Detection"],
     githubUrl: "https://github.com/yashshah-dev/card-ml-model",
     liveUrl: "",
-    imageUrl: "/card transaction analysis.png",
+    imageUrl: "/yash-portfolio/card transaction analysis.png",
   },
   {
     title: "rule-builder-ui",

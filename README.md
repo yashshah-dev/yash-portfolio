@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
+# Yash Shah Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, production-ready portfolio website built with React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, and Lucide React. Showcases professional experience, projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## Features
+- Responsive landing page with hero section
+- About me section with bio and resume download
+- Career highlights timeline
+- Featured projects grid with custom images
+- Skills section with technology tags
+- Contact form (Formspree integration) and social links
+- Dark mode toggle
+- Smooth animations and transitions
+- Mobile-first design
+- SEO optimized and accessible
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/) for fast development/build
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [Lucide React](https://lucide.dev/) for icons
+- [Formspree](https://formspree.io/) for contact form delivery
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+4. **Preview production build:**
+   ```bash
+   npm run preview
+   ```
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Deployment
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- The site is fully static and can be deployed to Vercel, Netlify, GitHub Pages, Cloudflare Pages, or any static host.
+- For custom domains, follow your host's instructions to set DNS and enable HTTPS.
+- If using GitHub Pages, remove `dist` from `.gitignore` and push the build output to the `gh-pages` branch.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Accessibility & SEO
+- Uses semantic HTML, ARIA labels, and is optimized for search engines.
+- Responsive and dark mode compatible.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contributing
+Pull requests and issues are welcome! Please follow best practices and ensure all code is well-documented and tested.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## License
+MIT
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+> Built and maintained by Yash Shah. For inquiries, use the contact form or connect via LinkedIn/GitHub.

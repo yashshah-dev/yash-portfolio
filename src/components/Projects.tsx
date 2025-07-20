@@ -34,13 +34,8 @@ const projects: Project[] = [
     technologies: ["JavaScript", "React", "UI"],
     githubUrl: "https://github.com/yashshah-dev/rule-builder-ui",
     liveUrl: "",
-  },
-  {
-    title: "Microservice",
-    description: "Event booking platform using Node.js, GraphQL, and React",
-    technologies: ["Node.js", "GraphQL", "React"],
-    githubUrl: "https://github.com/yushah8892/Microservice",
-    liveUrl: "",
+    imageUrl: "/yash-portfolio/Rule-based-fraud-detection.png",
+
   },
   {
     title: "BookMyEvents",
@@ -48,6 +43,7 @@ const projects: Project[] = [
     technologies: ["Node.js", "GraphQL", "React"],
     githubUrl: "https://github.com/yushah8892/BookMyEvents",
     liveUrl: "",
+    imageUrl: "/yash-portfolio/bookmyevents.png",
   },
   {
     title: "burger-builder-react",
@@ -55,6 +51,7 @@ const projects: Project[] = [
     technologies: ["React", "JavaScript"],
     githubUrl: "https://github.com/yushah8892/burger-builder-react",
     liveUrl: "",
+    imageUrl: "/yash-portfolio/Burger-builder.png",
   },
   {
     title: "Certification-network-Hyperledger",
@@ -62,14 +59,8 @@ const projects: Project[] = [
     technologies: ["Shell", "Hyperledger", "Blockchain"],
     githubUrl: "https://github.com/yushah8892/Certification-network-Hyperledger",
     liveUrl: "",
-  },
-  {
-    title: "Hyperledger_Distributed_Profiles",
-    description: "Distributed customer profiles on Hyperledger Fabric",
-    technologies: ["JavaScript", "Hyperledger", "Blockchain"],
-    githubUrl: "https://github.com/yushah8892/Hyperledger_Distributed_Profiles",
-    liveUrl: "",
-  },
+    imageUrl: "/yash-portfolio/Certification-network-Hyperledger.png",
+  }
 ];
 
 const Projects = () => {
